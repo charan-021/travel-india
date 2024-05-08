@@ -41,7 +41,6 @@ function sendemail() {
       sending.style.visibility = "hidden";
       send.style.visibility = "visible";
     }
-
     else if (msg == "") {
       alert("Please Enter Message");
       sending.style.visibility = "hidden";
@@ -54,13 +53,13 @@ function sendemail() {
         message: msg
       };
       emailjs.send('service_pcpc', 'template_pcpc', parameters).then(function (res) {
-        alert("Email Sent Successfully");
         send.style.visibility = "hidden";
         sending.style.visibility = "hidden";
         sent.style.visibility = "visible";
+        alert("Email Sent Successfully.");
       },
         reason => {
-          alert("Error Occur");
+          alert("There was an error sending your email.");
         })
     }
   }
