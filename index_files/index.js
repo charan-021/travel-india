@@ -26,7 +26,7 @@ function sendemail() {
     var sent = document.getElementById("sent");
     send.style.visibility = "hidden";
     sending.style.visibility = "visible";
-    var userid = "Gl6M_dGMAT3M0Wefs";
+    var userid = "Me26giy4gBxQp05UK";
     emailjs.init(userid);
     var name = document.getElementById('con_name').value;
     var email = document.getElementById('con_email').value;
@@ -52,7 +52,7 @@ function sendemail() {
         from_email: email,
         message: msg
       };
-      emailjs.send('service_pcpc', 'template_pcpc', parameters).then(function (res) {
+      emailjs.send("service_project21", "template_travel_india", parameters).then(function (res) {
         send.style.visibility = "hidden";
         sending.style.visibility = "hidden";
         sent.style.visibility = "visible";
