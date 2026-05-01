@@ -8,7 +8,12 @@ On this website, you can find information and pictures of the best places to exp
 
 Website Link: https://charan-021.github.io/travel-india/
 
+
+
 <img width="1680" height="3435" alt="image" src="https://github.com/user-attachments/assets/441d3421-27ac-467c-87d7-7a80d2047d98" />
 
-<img width="1680" height="3435" alt="image" src="https://github.com/user-attachments/assets/310d4ba3-e9fb-4407-86c8-931801100764" />
+
+
+<img width="1680" height="2642" alt="image" src="https://github.com/user-attachments/assets/3dc26bd0-15fa-426e-8914-b926d3afae2f" />
+
 
