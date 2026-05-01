@@ -1,4 +1,4 @@
-# travel-india
+# Travel India
 
 Hey everyone!
 
